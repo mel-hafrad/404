@@ -1,7 +1,7 @@
 
 html{
     text-align: center;
-	background-image:url("https://cdn.dribbble.com/users/2073028/screenshots/4860022/404.png"); 
+	background-image:url("https://images3.alphacoders.com/811/thumb-1920-811662.png"); 
 	background-size: cover;
 	font-family: 'Press Start 2P', cursive;
 	font-size: medium;
@@ -9,14 +9,19 @@ html{
 }
  
  #couleur1{
- 	color:rgb(0, 128, 0); c;text-shadow: black 0.1em 0.1em 0.2em
+ 	color:#efd807; text-shadow: black 0.1em 0.1em 0.2em
+ 	border: solid black 2px;
+	box-shadow: inset 0 0 1em black, 0em 0 1em red;
+	margin-right: 200px;
+	margin-left: 200px;
+	
  }
 footer{
 
 background:#000001;
 position:absolute;
 text-align: center;
-color:rgb(0, 128, 0);
+color:#c60800;
 
 
 bottom:0px;
@@ -28,11 +33,13 @@ padding-top:0px;
 height:50px;
 
 }
-.gif {
-	margin: 100px;
-	width: 200px;
-	float: right;
-	border-image-source: none;
-	border:1px solid black;
-    padding:0px;;
+#gif {
+	height:300px;
+	width:300px;
+	margin-top: 100px;
+	border: solid #0E2580 1px;
+}
+	
+#couleur2{
+	color: #efd807;
 }
